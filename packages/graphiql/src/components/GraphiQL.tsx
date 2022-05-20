@@ -903,7 +903,6 @@ class GraphiQLWithContext extends React.Component<
             onMouseDown={this.handleResizeStart}>
             <div className="queryWrap" style={queryWrapStyle}>
               <QueryEditor
-                schema={this.state.schema}
                 validationRules={this.props.validationRules}
                 value={this.state.query}
                 onEdit={this.handleEditQuery}
